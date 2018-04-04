@@ -33,7 +33,7 @@ Let's just listen to that audio. It says some letters and digits and after writi
 
 ![image](/FHQ/images/steganography/Horen-Sie.png)
 
-The description above asks repeat this word twice without spaces and we will follow this suggerstion:
+The description above asks repeat this word twice without spaces and we will follow this suggestion.
 
 Flag: `rootroot`
 
