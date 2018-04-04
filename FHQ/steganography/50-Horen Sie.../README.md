@@ -37,6 +37,6 @@ The description above asks repeat this word twice without spaces and we will fol
 
 Flag: `rootroot`
 
-### Link to the task
+### Link
 
 https://freehackquest.com/?quest=54
