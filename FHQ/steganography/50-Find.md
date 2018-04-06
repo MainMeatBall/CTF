@@ -21,7 +21,7 @@ It is simply resolves as morse code, which we can rewrite like this: `__. ___ __
 
 ![image](/FHQ/images/steganography/Find-morse-decryption.png)
 
-Actually, `_..._` is an equal sign `=` so it was used here to immitate spaces, but probably this decoder is'n sure what did we mean by `_..._` so it decoded it like `<BT>`.
+Actually, `_..._` is an equal sign `=` and `BT , New paragraph` so it was used here to imitate `space` character.
 
 Flag: `ICANSEEIT`
 
