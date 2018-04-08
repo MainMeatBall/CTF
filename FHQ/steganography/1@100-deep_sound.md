@@ -27,7 +27,18 @@ Nothing seems very strange about it so I'm going to open it in hex editor. Accor
 
 ![RarHex](/FHQ/images/steganography/deep_sound-hex.png)
 
-I will use the `dd` utilite to cut out archive from image using the information from hex editor like offset and length: `dd if=deep_sound-stego.jpg of=flag.rar skip=0x15338 bs=1 count=105`. And the last step is open this archive `unrar x flag.rar` and read the file. `cat 2.txt` provided this output: `flag: it's_easy_breasy_steganography` 
+I will use the `dd` utilite to cut out archive from image using the information from hex editor like offset and length: `dd if=deep_sound-stego.jpg of=flag.rar skip=0x15338 bs=1 count=105`. And the last step is open this archive `unrar x flag.rar` and read the file. `cat 2.txt` provided this output: `flag: it's_easy_breasy_steganography`.
+
+The other solution was to use `binwalk` utility. It gives us this information:
+
+```
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             JPEG image data, JFIF standard 1.01
+86840         0x15338         RAR archive data, first volume type: MAIN_HEAD
+```
+
+And after that we just extract data like `binwalk -e deep_sound-stego.jpg`.
 
 Actually you could see that flag back in hex editor because rar couldn't compress this text file, but nevertheless we did everything till the end.
 
