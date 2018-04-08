@@ -11,7 +11,7 @@
 
 ## Writeup
 
-**ENG**
+***ENG*** 
 
 We get this [archive](/FHQ/files/steganography/GameCTF.tar.gz) file.
 
@@ -27,7 +27,9 @@ Actually, `_..._` is an equal sign `=` and `BT , New paragraph` so it was used h
 
 Flag: `ICANSEEIT`
 
-**RU**
+---
+
+***RU***
 
 Мы получаем такой [архив](/FHQ/files/steganography/GameCTF.tar.gz).
 
