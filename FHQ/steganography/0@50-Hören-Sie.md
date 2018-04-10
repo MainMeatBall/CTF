@@ -38,9 +38,18 @@ The description above asks repeat this word twice without spaces and we will fol
 
 Flag: `rootroot`
 
-***RU***
+---
 
-TODO: RUS writeup
+***RU***
+Нам дают [.wav](/FHQ/files/steganography/Horen-sie.wav) файл.
+
+Давайте для начала просто прослушаем его. Там произносятся какие-то буквы и цифры и если их записать, то мы получим `63a9f0ea7bb98050796b649e85481845`. Основная идея в том, чтобы приметить, что данная строка напоминает `md5`. И я использую онлайн [сервис](http://md5decrypt.net/en/), чтобы расшифровать этот хэш.
+
+![image](/FHQ/images/steganography/Horen-Sie.png)
+
+В описании нас просят повторить полученное слово дважды без пробелов, что мы и сделаем.
+
+Флаг: `rootroot`
 
 ### Link
 
