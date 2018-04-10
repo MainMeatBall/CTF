@@ -28,6 +28,7 @@ What you hear is not an answer yet.
 ## Writeup
 
 ***ENG***
+
 We obtain this [.wav](/FHQ/files/steganography/Horen-sie.wav) file.
 
 Let's just listen to that audio. It says some letters and digits and after writing them down we have `63a9f0ea7bb98050796b649e85481845`. The main point is that this string has 32 letters which reminds of `md5`. I will use an online [service](http://md5decrypt.net/en/) to decrypt this hash.
@@ -41,6 +42,7 @@ Flag: `rootroot`
 ---
 
 ***RU***
+
 Нам дают [.wav](/FHQ/files/steganography/Horen-sie.wav) файл.
 
 Давайте для начала просто прослушаем его. Там произносятся какие-то буквы и цифры и если их записать, то мы получим `63a9f0ea7bb98050796b649e85481845`. Основная идея в том, чтобы приметить, что данная строка напоминает `md5`. И я использую онлайн [сервис](http://md5decrypt.net/en/), чтобы расшифровать этот хэш.
