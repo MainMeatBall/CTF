@@ -2,7 +2,7 @@
 **Description:**
 
 ***ENG***
-> Can you find me? I am here, look!
+> Couple of years ago we recieved a radiosignal on a strange language. We were able to decrypt only a part of this language. Help us! What coordinates did we recieved? We have these [vareq.txt](/FHQ/files/steganography/vareq.txt) and [vareq](/FHQ/files/steganography/vareq.elf) for linux.
 
 ---
 
@@ -10,7 +10,7 @@
 > Пару лет назад мы получили радиосигнал на странном языке. 
 > Часть языка удалось расшифоровать, а часть так и не удалось. Помогите нам!
 > Какие координаты нам были даны? 
-> В наличии есть [vareq.txt](/FHQ/files/steganography/vareq.txt) и [vareq](/FHQ/files/steganography/vareq.elf) для linux
+> В наличии есть [vareq.txt](/FHQ/files/steganography/vareq.txt) и [vareq](/FHQ/files/steganography/vareq.elf) для linux.
 
 ## Writeup
 
