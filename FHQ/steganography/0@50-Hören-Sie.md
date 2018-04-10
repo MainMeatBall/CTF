@@ -2,7 +2,7 @@
 **Description:**
 
 ***ENG***
-> *"Hören Sie musik und sagen Sie... Was ist das?"*  Listen and give the answer. The obtained word repeat twice without spaces.
+> *"Hören Sie musik und sagen Sie... Was ist das?"*  [Listen](/FHQ/files/steganography/Horen-sie.wav) and give the answer. The obtained word repeat twice without spaces.
 
 <details>
  <summary>Hint</summary>
@@ -15,7 +15,7 @@ What you hear is not an answer yet.
 ---
 
 ***RU***
-> *"Hören Sie musik und sagen Sie... Was ist das?"*  Послушайте и дайте ответ. Полученное слово повторите дважды без пробелов.
+> *"Hören Sie musik und sagen Sie... Was ist das?"*  [Послушайте](/FHQ/files/steganography/Horen-sie.wav) и дайте ответ. Полученное слово повторите дважды без пробелов.
 
 <details>
  <summary>Подсказка</summary>
