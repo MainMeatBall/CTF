@@ -2,12 +2,12 @@
 **Description:**
 
 ***ENG***
-> One of our employees decided to check the qualification of our personal nowadays and sent us this file. But any of our agents couldn't find anything. Help us, please!
+> One of our employees decided to check the qualification of our personal nowadays and sent us [this file](https://drive.google.com/open?id=1u6c4l1wKBkn28yHvOkcQRQ65i4TupIAv). But any of our agents couldn't find anything. Help us, please!
 
 ---
 
 ***RU***
-> Один из наших бывших сотрудников решил проверить, насколько квалифицированные специалисты работают сейчас тут, и прислал нам этот файл. Но ни один из наших агентов не смог ничего найти. Пожалуйста, помогите нам!
+> Один из наших бывших сотрудников решил проверить, насколько квалифицированные специалисты работают сейчас тут, и прислал нам [этот файл](https://drive.google.com/open?id=1u6c4l1wKBkn28yHvOkcQRQ65i4TupIAv). Но ни один из наших агентов не смог ничего найти. Пожалуйста, помогите нам!
 
 ## Writeup
 
@@ -48,7 +48,36 @@ Flag: `it's_easy_breasy_steganography`
 
 ***RU***
 
-TODO: Writeup
+В этом задании мы скачиваем [аудио файл](https://drive.google.com/open?id=1u6c4l1wKBkn28yHvOkcQRQ65i4TupIAv).
+
+Можно прослушать этот файл и не услышать ничего подозрительного. Однако, если вы знакомы с CTF, то должны знать, что в названии заданий может присутствовать полезная информация или даже подсказка. Это задание как раз таким и является. `DeepSound` это утилита для стеганографии, которая используется для скрытия секретной информации в аудио файлы.
+
+![screenshot_winXP](/FHQ/images/steganography/deep_sound.png)
+
+Как только я открыл `deep_sound.wav` в `DeepSound`, программа мне показала, что этот файл содержит секретное изображение `stego.jpg`. Давайте извлечем его, нажав на `Extract secret files` и затем откроем изображение.
+
+![stego](/FHQ/files/steganography/deep_sound-stego.jpg)
+
+На картинке не изображено ничего странного, так что откроем его в hex-редакторе. Зная, что у формата JPEG последние два байта всегда `0xFFD9`, можно часто встретить допольнительную информацию, которая идет сразу после этих байтов. Это задание не исключение и мы находим там `Rar` архив.
+
+![RarHex](/FHQ/images/steganography/deep_sound-hex.png)
+
+Я исполльзую утилиту `dd`, чтобы вынуть архив из изображения, зная каков сдвиг и его размер из hex-редактора: `dd if=deep_sound-stego.jpg of=flag.rar skip=0x15338 bs=1 count=105`. И последний шаг это распаковать архив `unrar x flag.rar` и прочитать файл. `cat 2.txt` предоставляет следующий текст: `flag: it's_easy_breasy_steganography`.
+
+Еще один удобный вариант -- это использовать утилиту `binwalk` на изображении, которая предоставит такую информацию:
+
+```
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             JPEG image data, JFIF standard 1.01
+86840         0x15338         RAR archive data, first volume type: MAIN_HEAD
+```
+
+После чего просто извлечем данные командой `binwalk -e deep_sound-stego.jpg`.
+
+На самом деле, открыв изображение в hex-редакторе уже можно было увидеть флаг, так как скорее всего архиватор не смог ничего сжать, но мы все равно проделали задание до конца.
+
+Флаг: `it's_easy_breasy_steganography`
 
 ### Link
 
