@@ -1,0 +1,89 @@
+/*
+ * _’
+*/
+#define poD "%d"
+
+uc c’Nuf’chogh Hu’ Su’  Jum’kasa
+pf Hu’ AbraBoom Su’ JuwH
+Jum’kasa’Shu
+
+uc c’Nuf’Soch Hu’ Su’  Jum’kasa
+pf Hu’ "," Su’ JuwH
+FugHa JuwH c’Nuf’chogh Hu’ Su’ JuwH 
+Jum’kasa’Shu
+
+uc c’Nuf’jav Hu’ Su’  Jum’kasa
+pf Hu’ poD, Soch Su’ JuwH
+FugHa JuwH c’Nuf’Soch Hu’ Su’ JuwH 
+Jum’kasa’Shu
+
+uc c’Nuf’vagh Hu’ Su’ Jum’kasa
+pf Hu’ poD, jav Su’ JuwH
+FugHa JuwH c’Nuf’jav Hu’ Su’ JuwH 
+Jum’kasa’Shu
+
+uc c’Nuf’loS Hu’ Su’ Jum’kasa
+pf Hu’ poD, vagh Su’ JuwH
+FugHa JuwH c’Nuf’vagh Hu’ Su’ JuwH
+Jum’kasa’Shu
+
+uc c’Nuf’wej Hu’ Su’ Jum’kasa
+pf Hu’ poD, wej Su’ JuwH
+FugHa JuwH c’Nuf’loS Hu’ Su’ JuwH 
+Jum’kasa’Shu
+
+uc c’Nuf’pi Hu’ Su’ 
+Jum’kasa
+pf Hu’ " " Su’ JuwH
+Jum’kasa’Shu
+
+uc c’Nuf’cha’ Hu’ Su’ Jum’kasa
+pf Hu’ poD, cha’ Su’ JuwH
+FugHa JuwH c’Nuf’wej Hu’ Su’ JuwH 
+Jum’kasa’Shu
+
+uc c’Nuf’wa’ Hu’ Su’ Jum’kasa
+pf Hu’ poD, wa’ Su’ JuwH
+FugHa JuwH c’Nuf’cha’ Hu’ Su’ JuwH
+Jum’kasa’Shu
+
+uc hI’bSKiEhY Jum’kasa
+c’Nuf’chogh Hu’ Su’ JuwH
+c’Nuf’wa’ Hu’ Su’ JuwH
+c’Nuf’Soch Hu’ Su’ JuwH
+c’Nuf’wej Hu’ Su’ JuwH 
+c’Nuf’pi Hu’ Su’ JuwH
+c’Nuf’cha’ Hu’ Su’ JuwH 
+c’Nuf’Soch Hu’ Su’ JuwH 
+c’Nuf’wej Hu’ Su’ JuwH 
+c’Nuf’pi Hu’ Su’ JuwH
+c’Nuf’wa’ Hu’ Su’ JuwH 
+c’Nuf’Soch Hu’ Su’ JuwH 
+c’Nuf’jav Hu’ Su’ JuwH 
+c’Nuf’pi Hu’ Su’ JuwH
+c’Nuf’loS Hu’ Su’ JuwH 
+c’Nuf’Soch Hu’ Su’ JuwH 
+c’Nuf’vagh Hu’ Su’ JuwH 
+c’Nuf’pi Hu’ Su’ JuwH
+c’Nuf’wej Hu’ Su’ JuwH 
+c’Nuf’Soch Hu’ Su’ JuwH 
+c’Nuf’cha’ Hu’ Su’ JuwH 
+c’Nuf’pi Hu’ Su’ JuwH
+Jum’kasa’Shu
+
+Ka’wagha’wu Rurh H’wa JuwH 
+pop’chHa si’ja 
+Jum’kasa 
+Wu’Jwa Gu’Ha "Slaves, we need your resource if you will not give them, we destroy the Earth\n" JuwH
+KurHI’ja Gu’Cha Ha’Rurh vagh JuwH 
+HIja’chugh Hu’ Gu’Cha GroW pagh Su’ Jum’kasa 
+qawHa’ Hu’ Gu’Cha JuwH Gu’Cha SaW wa’ JuwH Gu’Cha Ha’Rurh Gu’Cha boqHa’ wa’ Su’ Jum’kasa Wu’Jwa Gu’Ha Gu’Cha JuwH Jum’kasa’Shu
+Jum’kasa’Shu 
+Wu’Jwa Gu’Ha "\n" JuwH
+KurHI’ja Gu’ Ha’Rurh wa’ JuwH
+Gu’ wa’boqHa’ JuwH FugHa wa’ JuwH
+Gu’ wa’boqHa’ JuwH
+HIja’chugh Hu’ Gu’ GroW pagh Su’ Jum’kasa hI’bSKiEhY JuwH Jum’kasa’Shu
+Wu’Jwa Gu’Ha "\n" JuwH
+Jum’kasa’Shu 
+
