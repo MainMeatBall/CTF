@@ -2,12 +2,12 @@
 **Description:**
 
 ***ENG***
-> Can you find me? I am here, look!
+> Can you find me? I am [here](https://drive.google.com/open?id=13dWOFCkDnF2J_S5NRddgvCvqQK7tmdzZ), look!
 
 ---
 
 ***RU***
-> Вы сможете меня найти? Смотри, я здесь!
+> Вы сможете меня найти? Смотри, я [здесь](https://drive.google.com/open?id=13dWOFCkDnF2J_S5NRddgvCvqQK7tmdzZ)!
 
 ## Writeup
 
@@ -43,7 +43,7 @@ Flag: `ICANSEEIT`
 
 На самом деле, `_..._` это знак "равно" `=` и `BT , New paragraph` так что он был использован в данном сообщении вместо пробела.
 
-Flag: `ICANSEEIT`
+Флаг: `ICANSEEIT`
 
 ### Link
 
