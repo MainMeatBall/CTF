@@ -4,10 +4,42 @@
 ***ENG***
 > Someone left this [file](https://drive.google.com/open?id=1AbMJIz5wBxKNFs0i_4rXnxky8upufArf) on our server. Can you find out, what is inside?
 
+<details>
+ <summary>Hint 1</summary>
+
+```
+Is it image?
+```
+</details>
+
+<details>
+ <summary>Hint 2</summary>
+
+```
+What do you know about the channels of image?
+```
+</details>
+
 ---
 
 ***RU***
 > Кто-то оставил этот [файл](https://drive.google.com/open?id=1AbMJIz5wBxKNFs0i_4rXnxky8upufArf) на нашем сервере. Можешь посмотреть, что в нем? 
+
+<details>
+ <summary>Подсказка 1</summary>
+
+```
+Может быть это изображение?
+```
+</details>
+
+<details>
+ <summary>Подсказка 2</summary>
+
+```
+Что вы знаете о каналах изображения?
+```
+</details>
 
 ## Writeup
 
