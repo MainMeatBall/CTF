@@ -17,7 +17,7 @@ You can use a hex-editor or `binwalk` utility and see that this file has a rar a
 
 Inside you will see another image of this cat which is called `Just_fuck_your_brain.jpg`.
 
-![Fuck_your_brain](/FHQ/files/steganography/Just_fuck_your_brain.jpg)
+![Fuck_your_brain](/FHQ/images/steganography/Just_fuck_your_brain.jpg)
 
 Nothing special about it, and the `flag.txt` file.
 
