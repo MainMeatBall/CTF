@@ -27,11 +27,11 @@ What you hear is not an answer yet.
 
 ## Writeup
 
-Let's just listen to that audio. It says some letters and digits and after writing them down we have `63a9f0ea7bb98050796b649e85481845`. The main point is that this string has 32 letters which reminds of `md5`. I will use an online [service](http://md5decrypt.net/en/) to decrypt this hash.
+Let's just listen to the audio. Some letters and digits are being said and after writing them down, we have `63a9f0ea7bb98050796b649e85481845`. The main point is that this string has 32 letters which reminds of `md5`. I will use an online [service](http://md5decrypt.net/en/) to decrypt this hash.
 
 ![image](/FHQ/images/steganography/Horen-Sie.png)
 
-The description above asks repeat this word twice without spaces and we will follow this suggestion.
+The description above is asking to repeat this word twice without spaces, and we will take this advice.
 
 Flag: `rootroot`
 
