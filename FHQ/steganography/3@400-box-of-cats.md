@@ -13,7 +13,7 @@
 
 After unpacking this rar archive, we can see 20 picures of cats and one "important" image.
 
-![important](/FHQ/images/steganoghraphy/important.png)
+![important](/FHQ/images/steganography/important.png)
 
 We see a lot of zeros, and if we won't be lazy and count them, we will see that there are 32 of them. Number 32 always reminds me of md5, so maybe something is connected with it? We notice that the tvelfth digit is marked with a blue color. I suppose that the meaning of it is to show that the 12th sybmol is important for us. Let's bring it all together: md5 is 32 symbols long and we need to pay attention at 12th character.
 
