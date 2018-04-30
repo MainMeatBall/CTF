@@ -1,0 +1,28 @@
+# Unusualidea #216
+**Description:**
+
+***ENG***
+> There is an encrypted message obtained by substituting some letters. Can you decipher this? `HINT: The cipher refers to the group of replacement ciphers.`
+
+---
+
+***RU***
+> Перемешав алфавит, мы написали сообщение на новом языке. Сможете ли вы это расшифровать?
+
+```
+Je itnfmcecvnxjx, ktgqygein cecvnxjx jx mag xmyhn uk mag ktgqygein uk vgmmgtx ut ztuyfx uk vgmmgtx je c ijfagtmgwm. Mag sgmauh jx yxgh cx ce cjh mu otgcbjez ivcxxjicv ijfagtx.
+
+
+Ktgqygein cecvnxjx jx ocxgh ue mag kcim macm, je cen zjlge xmtgmia uk ptjmmge vcezyczg, igtmcje vgmmgtx ceh iusojecmjuex uk vgmmgtx uiiyt pjma lctnjez ktgqygeijgx. Sutgulgt, magtg jx c iactcimgtjxmji hjxmtjoymjue uk vgmmgtx macm jx tuyzavn mag xcsg kut cvsuxm cvv xcsfvgx uk macm vcezyczg. Kut jexmceig, zjlge c xgimjue uk Gezvjxa vcezyczg, G, M, C ceh U ctg mag suxm iussue, pajvg R, Q ceh W ctg tctg. Vjbgpjxg, MA, GT, UE, ceh CE ctg mag suxm iussue fcjtx uk vgmmgtx (mgtsgh ojztcsx ut hjztcfax), ceh XX, GG, MM, ceh KK ctg mag suxm iussue tgfgcmx.[1] Mag euexgexg fatcxg "GMCUJE XATHVY" tgftgxgemx mag 12 suxm ktgqygem vgmmgtx je mnfjicv Gezvjxa vcezyczg mgwm. Kvcz kuvvupx.
+cvjmmvgacthgtmacejmauyzam
+```
+
+## Writeup
+
+
+
+Flag: ``
+
+### Link
+
+https://freehackquest.com/?quest=216
