@@ -1,0 +1,40 @@
+#include <iostream>
+
+std::string DecToHex(int dec)
+{
+    std::string hex = "";
+    do
+    {
+        int r = dec % 16;
+        if (r > 9) {r += (int)'A'-10;}
+        else  {r += (int)'0';};
+        hex = (char)r + hex;
+        dec /= 16;
+    }
+    while (dec);
+    return hex;
+}
+
+std::string encript(std::string openText, std::string key)
+{
+    if (key.length() != 11)
+    {
+        std::cout << "incorrect key" << std::endl;
+        return "";
+    }
+    std::string criptText = "";
+    openText = openText + openText;
+    int nKey = key.length();
+    for (int i = 0; i < openText.length(); i++)
+    {
+        char textCh = openText[i];
+        char keyCh = key[i % nKey];
+        int buf = ((int)textCh + (int)keyCh) % 256;
+        criptText += DecToHex(buf);
+    }
+    return criptText;
+}
+
+// key was meaningful string
+// result = D1D1D7C883DDD98B95ABC39B99AEC59AA69A9DC8D898CD9DD8969AD7CCCC98D892CF9BABC6C6D9C7D1D1D7C88BCEE98193A9C89B99AEC5A297AA93C6D69DCD9DD896A2C8DCC296D697CF9BABC6CECAD7
+
