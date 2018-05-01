@@ -11,7 +11,7 @@
 
 ## Writeup
 
-These sounds reminded me of R2-D2 from Star Wars, but I found nothing interesting there. But if you open this audio file in a program like `Audacity`, you can see that this file has eight channels. You can also look in hex-editor and confirm that information. It is actually very strange and very suspicious, why eight? When you meet a WAV file in steganography it usually has hidden data as LSB (Least Significant Bit), or maybe if it has two channels the data coukd be hiding as a difference between them, but this one has eight channels. So the first idea that came to my mind reffered to number eight and LSB that one byte consists of eight bits. Maybe I should try to take one bit from every channel and connect them into one byte? In 16-bit wav files data bytes are following each other in this order: 2 bytes of first channel, 2 bytes of second channel, ... 2 bytes of last channel. So I will use python to get them.
+These sounds reminded me of R2-D2 from Star Wars, but I found nothing interesting there. But if you open this audio file in a program like `Audacity`, you can see that this file has eight channels. You can also look in hex-editor and confirm that information. It is actually very strange and very suspicious, why eight? When you meet a WAV file in steganography it usually has hidden data as LSB (Least Significant Bit), or maybe if it has two channels the data could be hiding as a difference between them, but this one has eight channels. So the first idea that came to my mind reffered to number eight and LSB that one byte consists of eight bits. Maybe I should try to take one bit from every channel and connect them into one byte? In 16-bit wav files data bytes are following each other in this order: 2 bytes of first channel, 2 bytes of second channel, ... 2 bytes of last channel. So I will use python to get them.
 
 ```python
 wr = open("/Users/Meatball/FHQ/Remastered_decoded", "wb")
@@ -32,7 +32,7 @@ wr.close()
 
 ```
 
-Actually, first of all I tried to take those bits in big-endian order but that gave me nothing. So thought that reverse that order would be worth trying. And it was.
+Actually, first of all I tried to take those bits in big-endian order but that gave me nothing. So I thought that reversing that order would be worth trying. And it was.
 
 Then you can use `file` utility or just open in hex-editor and see that it is a PNG image. 
 

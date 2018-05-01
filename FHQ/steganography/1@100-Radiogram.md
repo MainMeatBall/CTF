@@ -2,7 +2,7 @@
 **Description:**
 
 ***ENG***
-> Couple of years ago we recieved a radiosignal on a strange language. We were able to decrypt only a part of this language. Help us! What coordinates did we recieved? We have these [vareq.txt](/FHQ/files/steganography/vareq.txt) and [vareq](/FHQ/files/steganography/vareq.elf) for linux.
+> A couple of years ago we recieved a radiosignal on a strange language. We were able to decrypt only a part of this language. Help us! What coordinates did we recieve? We have these [vareq.txt](/FHQ/files/steganography/vareq.txt) and [vareq](/FHQ/files/steganography/vareq.elf) for linux.
 
 ---
 
@@ -14,7 +14,7 @@
 
 ## Writeup
 
-After reading text file and having no idea what to do with it, I opened provided ELF file in IDA Pro 7.0. The main function was very short so I looked up for other functions and found `func9(void)` in the left window with functions. It has a sequence of other functions which are just printing one character. I renamed them so it will be more comfortable to read.
+After reading the text file and having no idea what to do with it, I opened provided ELF file in IDA Pro 7.0. The main function was very short so I looked up for other functions and found `func9(void)` in the left window with functions. It has a sequence of other functions which are just printing one character. I renamed them so it will be more comfortable to read.
 
 ![IDA_dump](/FHQ/images/steganography/IDA_dump.png)
 
