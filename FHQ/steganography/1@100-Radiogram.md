@@ -7,14 +7,11 @@
 ---
 
 ***RU***
-> Пару лет назад мы получили радиосигнал на странном языке. 
-> Часть языка удалось расшифоровать, а часть так и не удалось. Помогите нам!
-> Какие координаты нам были даны? 
-> В наличии есть [vareq.txt](/FHQ/files/steganography/vareq.txt) и [vareq](/FHQ/files/steganography/vareq.elf) для linux.
+> Пару лет назад мы получили радиосигнал на странном языке. Часть языка удалось расшифоровать, а часть так и не удалось. Помогите нам! Какие координаты нам были даны? В наличии есть [vareq.txt](/FHQ/files/steganography/vareq.txt) и [vareq](/FHQ/files/steganography/vareq.elf) для linux.
 
 ## Writeup
 
-After reading the text file and having no idea what to do with it, I opened provided ELF file in IDA Pro 7.0. The main function was very short so I looked up for other functions and found `func9(void)` in the left window with functions. It has a sequence of other functions which are just printing one character. I renamed them so it will be more comfortable to read.
+After reading the text file and having no idea what to do with it, I opened provided ELF file in IDA Pro 7.0. The main function was very short so I looked up for other functions and found `func9(void)` in the left window with functions. It had a sequence of other functions which were just printing one character. I renamed them so it would be more comfortable to read.
 
 ![IDA_dump](/FHQ/images/steganography/IDA_dump.png)
 
