@@ -2,7 +2,7 @@
 **Description:**
 
 ***ENG***
-> There is an encrypted message obtained by substituting some letters. Can you decipher this? `HINT: The cipher refers to the group of replacement ciphers.`
+> There is an encrypted message obtained by substituting some letters. Can you decipher this?
 
 ---
 
