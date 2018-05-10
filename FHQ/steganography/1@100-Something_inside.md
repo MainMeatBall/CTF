@@ -8,7 +8,7 @@
  <summary>Hint 1</summary>
 
 ```
-Is it image?
+Is it an image?
 ```
 </details>
 
@@ -43,7 +43,7 @@ What do you know about the channels of image?
 
 ## Writeup
 
-After downloading this archive we can try to unpack it, but it is impossible. `Wrong.rar is not RAR archive. No files to extract` is says. What is it then? Let's use `file` utility on this file and we will find out that it is a `Wrong.rar: PNG image data, 1920 x 1080, 8-bit/color RGBA, interlaced`. Just change the extension from `.rar` to `.png` and you will have this image.
+After downloading this archive we can try to unpack it, but it is impossible. `Wrong.rar is not RAR archive. No files to extract` it says. What is it then? Let's use `file` utility on this file and we will find out that it is a `Wrong.rar: PNG image data, 1920 x 1080, 8-bit/color RGBA, interlaced`. Just change the extension from `.rar` to `.png` and you will have this image.
 
 ![Wrong-image](/FHQ/images/steganography/Wrong.png)
 
